@@ -1,0 +1,26 @@
+{
+  "name": "pf-madridjs",
+  "version": "1.0.0",
+  "description": "Talleres madridJS programacion funcional",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergueyarellano/Talleres.madrid-js.programacion-funcional.git"
+  },
+  "keywords": [
+    "programacion",
+    "funcional"
+  ],
+  "author": "Serguey Arellano <sergueyarellano@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergueyarellano/Talleres.madrid-js.programacion-funcional/issues"
+  },
+  "homepage": "https://github.com/sergueyarellano/Talleres.madrid-js.programacion-funcional#readme"
+}
