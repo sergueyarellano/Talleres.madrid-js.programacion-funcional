@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/sergueyarellano/Talleres.madrid-js.programacion-funcional#readme",
   "devDependencies": {
+    "require-all": "2.2.0",
     "standard": "9.0.2",
     "tape": "4.6.3"
   }
