@@ -17,10 +17,14 @@
     "programacion",
     "funcional"
   ],
-  "author": "Serguey Arellano <sergueyarellano@gmail.com>",
+  "author": "Javier Velez <javier.velez.reyes@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sergueyarellano/Talleres.madrid-js.programacion-funcional/issues"
   },
-  "homepage": "https://github.com/sergueyarellano/Talleres.madrid-js.programacion-funcional#readme"
+  "homepage": "https://github.com/sergueyarellano/Talleres.madrid-js.programacion-funcional#readme",
+  "devDependencies": {
+    "standard": "9.0.2",
+    "tape": "4.6.3"
+  }
 }
