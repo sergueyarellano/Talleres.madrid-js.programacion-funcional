@@ -14,9 +14,6 @@ module.exports = {
 // naturales desde 1 hasta n.
 
 function factorial (n) {
-  return n === 1 ?
-    1 :
-    n * factorial(n - 1)
 }
 
 // 02. Diseña una función recursiva para calcular el
@@ -25,9 +22,6 @@ function factorial (n) {
 // anteriores en la sucesión.
 
 function fibonacci (n) {
-  return n < 2
-    ? n
-    : fibonacci(n - 1) + fibonacci(n - 2)
 }
 
 // 03. Diseña una función recursiva para calcular
@@ -36,9 +30,6 @@ function fibonacci (n) {
 // producto de b con sigo mismo e veces.
 
 function pow (b, e) {
-  return e === 1
-    ? b
-    : b * pow(b, e - 1)
 }
 
 // 04. Diseña dos predicados lógicos [even] y [odd] que
@@ -47,9 +38,6 @@ function pow (b, e) {
 // funciones no puede utilizarse la operación de módulo %.
 
 function even (n) {
-  return n === 1
-    ? false
-    : !even(n - 1)
 }
 
 // 05. Diseña una función recursiva [addUp] que devuelva
@@ -57,9 +45,6 @@ function even (n) {
 // addUp (3) = 1 + 2 + 3 = 6.
 
 function addUp (n) {
-  return n === 1
-    ? 1
-    : n + addUp(n - 1)
 }
 
 // 06. Diseña una función recursiva [digits] que sume los dígitos
@@ -67,7 +52,4 @@ function addUp (n) {
 // digits (125) = 1 + 2 + 5 = 8.
 
 function digits (n) {
-  return n < 10
-    ? n
-    : n%10 + digits(Math.floor(n/10))
 }
