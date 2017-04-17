@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape code/problems/*test.js | faucet",
+    "lint": "standard --verbose"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,9 @@
   },
   "homepage": "https://github.com/sergueyarellano/Talleres.madrid-js.programacion-funcional#readme",
   "devDependencies": {
+    "faucet": "0.0.1",
     "require-all": "2.2.0",
+    "snazzy": "6.0.0",
     "standard": "9.0.2",
     "tape": "4.6.3"
   }
